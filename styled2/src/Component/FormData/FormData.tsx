@@ -1,6 +1,8 @@
 import { useState } from "react"
 import { DisplayData } from "../DisplayData/DisplayData"
 import { Formone } from "../Forms/Form1"
+import { FormsStyledbyClass } from "../Forms/FormsUsingClasses"
+import { StyledComponent } from "../Forms/StyledComponents"
 import './formdata.css'
 export const FormData:React.FC=()=>{
     const [names, setNames]= useState<string[]>([])
@@ -11,7 +13,7 @@ export const FormData:React.FC=()=>{
     return (
         <>
         <div className="container">
-            <Formone onsave={SaveData}/>
+        <FormsStyledbyClass onsave={SaveData}/>
         <DisplayData  data={names}/>
         </div>
         </>
