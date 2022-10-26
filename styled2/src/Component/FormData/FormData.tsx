@@ -13,7 +13,7 @@ export const FormData:React.FC=()=>{
     return (
         <>
         <div className="container">
-        <FormsStyledbyClass onsave={SaveData}/>
+        <StyledComponent onsave={SaveData}/>
         <DisplayData  data={names}/>
         </div>
         </>
