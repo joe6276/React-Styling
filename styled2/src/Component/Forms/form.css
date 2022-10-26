@@ -1,0 +1,22 @@
+.form-data{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    width:500px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.form-data input{
+    padding: 5px;
+}
+
+.form-data button{
+    padding:5px;
+    border-style: none;
+    background-color: coral;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px;
+}
